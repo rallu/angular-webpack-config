@@ -76,6 +76,7 @@ const defaultConfig = function(options, root, settings) {
        * See: https://webpack.github.io/docs/list-of-plugins.html#defineplugin
        */
       // NOTE: when adding more properties make sure you include them in custom-typings.d.ts
+      /*
       new definePlugin({
         'ENV': JSON.stringify(options.env),
         'process.env': {
@@ -85,7 +86,7 @@ const defaultConfig = function(options, root, settings) {
           'PORT': JSON.stringify(PORT)
         }
       }),
-
+      */
       /**
        * Plugin: CheckerPlugin
        * Description: Do type checking in a separate process, so webpack don't need to wait.
